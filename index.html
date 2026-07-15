@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carnet de voyage — Écosse 2026</title>
+<style>
+/* ===== Shared doc.css (inlined) ===== */
+:root{
+  --bg:#faf9f6; --card:#ffffff; --ink:#1d2026; --ink-soft:#3a4150; --muted:#5a6472; --rule:#e6e3db;
+  --accent:#234e86; --accent-bg:#eaf1fa;
+  --info:#234e86; --info-bg:#eaf1fa; --info-bd:#cadcf0;
+  --good:#2c6a4d; --good-bg:#e8f3ec; --good-bd:#cbe3d4;
+  --warn:#8f6418; --warn-bg:#f7f0e0; --warn-bd:#e6d6b0;
+  --bad:#a93a3a;  --bad-bg:#fbedee;  --bad-bd:#e6c5c7;
+  --alt:#5f4791;  --alt-bg:#f1ecfa;  --alt-bd:#dbcbee;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --sans:-apple-system,"Segoe UI",system-ui,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--serif);font-size:18px;line-height:1.62;
+  font-feature-settings:"kern","liga";text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;}
+.wrap{max-width:900px;margin:0 auto;padding:54px 26px 110px;}
+::selection{background:rgba(35,78,134,.16);}
+h1,h2,h3,h4,.sans{font-family:var(--sans);}
+h1,h2,h3,h4{text-wrap:balance;}
+header.title{margin-bottom:32px;padding-bottom:22px;border-bottom:3px solid var(--accent);}
+header.title .kicker{font-family:var(--sans);text-transform:uppercase;letter-spacing:.16em;font-size:11.5px;font-weight:700;color:var(--accent);margin:0 0 12px;}
+header.title h1{font-size:34px;line-height:1.12;letter-spacing:-.02em;font-weight:700;margin:0 0 12px;}
+header.title p.sub{margin:0;color:var(--muted);font-size:18px;font-style:italic;line-height:1.45;}
+h2{font-size:23px;font-weight:700;letter-spacing:-.015em;margin:48px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--rule);}
+h3{font-size:17px;font-weight:600;letter-spacing:-.01em;margin:24px 0 8px;color:var(--ink-soft);}
+p{margin:0 0 16px;}
+a{color:var(--accent);text-underline-offset:2px;}
+ul,ol{margin:0 0 16px;padding-left:24px;} li{margin-bottom:6px;}
+strong,b{font-weight:600;}
+.callout{border-radius:8px;padding:16px 20px;margin:22px 0;border:1px solid var(--rule);border-left-width:4px;}
+.callout h3{margin:0 0 8px;font-size:15px;font-weight:700;letter-spacing:0;}
+.callout.info{background:var(--info-bg);border-color:var(--info-bd);border-left-color:var(--info);}
+.callout.good{background:var(--good-bg);border-color:var(--good-bd);border-left-color:var(--good);}
+.callout.warn{background:var(--warn-bg);border-color:var(--warn-bd);border-left-color:var(--warn);}
+.callout.bad {background:var(--bad-bg); border-color:var(--bad-bd); border-left-color:var(--bad);}
+.callout.alt {background:var(--alt-bg); border-color:var(--alt-bd); border-left-color:var(--alt);}
+.callout.info h3{color:var(--info);} .callout.good h3{color:var(--good);}
+.callout.warn h3{color:var(--warn);} .callout.bad h3{color:var(--bad);} .callout.alt h3{color:var(--alt);}
+.key{background:var(--accent-bg);border:1px solid var(--info-bd);border-top:4px solid var(--accent);border-radius:8px;padding:18px 22px;margin:26px 0;}
+table{border-collapse:collapse;width:100%;margin:20px 0;background:var(--card);font-size:16px;font-variant-numeric:tabular-nums;}
+th,td{border:1px solid var(--rule);padding:9px 13px;text-align:left;vertical-align:top;}
+thead th{background:var(--accent-bg);font-family:var(--sans);font-size:13.5px;font-weight:600;letter-spacing:.01em;}
+td.ok{background:var(--good-bg);color:var(--good);font-weight:600;white-space:nowrap;}
+td.no{background:var(--bad-bg);color:var(--bad);font-weight:600;white-space:nowrap;}
+details.exp{background:var(--card);border:1px solid var(--rule);border-radius:6px;margin:14px 0;padding:0 16px;}
+details.exp>summary{font-family:var(--sans);font-weight:600;font-size:15.5px;cursor:pointer;padding:12px 0;list-style:none;}
+details.exp>summary::-webkit-details-marker{display:none;}
+details.exp>summary::before{content:"\25B8  ";color:var(--accent);}
+details.exp[open]>summary::before{content:"\25BE  ";}
+figure{margin:24px 0;text-align:center;}
+figure svg{max-width:100%;height:auto;}
+figcaption{font-size:14px;color:var(--muted);font-style:italic;margin-top:8px;}
+code{background:#f0eee8;padding:1px 5px;border-radius:4px;font-size:.88em;font-family:var(--mono);}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--rule);color:var(--muted);font-size:13px;font-family:var(--sans);}
+.tab-bar{display:flex;gap:4px;flex-wrap:wrap;border-bottom:2px solid var(--rule);}
+.tab-btn{font-family:var(--sans);font-size:14px;font-weight:600;background:none;border:none;padding:9px 15px;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-2px;}
+.tab-btn.active{color:var(--accent);border-bottom-color:var(--accent);}
+.tab-panel{display:none;padding:16px 2px;} .tab-panel.active{display:block;}
+@media(max-width:640px){.wrap{padding:34px 16px 80px;}body{font-size:17px;}header.title h1{font-size:26px;}}
+@media print{body{background:#fff;}.tab-bar{display:none;}.tab-panel{display:block!important;}.callout,figure,table,.key,.stage,.gallery figure{break-inside:avoid;}a{color:inherit;text-decoration:none;}}
+
+/* ===== Travel-specific components ===== */
+.map-hero img{width:100%;border-radius:10px;border:1px solid var(--rule);}
+.stage{margin-top:14px;}
+.stage-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:48px 0 4px;padding-bottom:8px;border-bottom:1px solid var(--rule);}
+.stage-num{font-family:var(--sans);font-weight:800;font-size:15px;color:#fff;background:var(--accent);border-radius:50%;width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;flex:none;}
+.stage-head h2{border:none;margin:0;padding:0;font-size:23px;}
+.stage-dates{font-family:var(--sans);font-size:13.5px;color:var(--muted);font-weight:600;}
+.lodging{display:flex;gap:16px;background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:12px;margin:16px 0;align-items:center;}
+.lodging img{width:210px;height:140px;object-fit:cover;border-radius:8px;flex:none;}
+.lodging .meta{font-family:var(--sans);font-size:14px;}
+.lodging .meta b{font-size:15.5px;}
+.lodging .ref{color:var(--muted);font-size:12.5px;}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px;margin:18px 0;}
+.gallery figure{margin:0;text-align:left;background:var(--card);border:1px solid var(--rule);border-radius:10px;overflow:hidden;}
+.gallery img{width:100%;height:150px;object-fit:cover;display:block;}
+.gallery figcaption{font-style:normal;margin:0;padding:9px 11px 11px;font-family:var(--sans);}
+.gallery .cap-name{font-weight:600;font-size:14.5px;color:var(--ink);display:block;margin-bottom:6px;line-height:1.3;}
+.chips{display:flex;flex-wrap:wrap;gap:4px;}
+.chip{font-family:var(--sans);font-size:11px;font-weight:700;padding:2px 7px;border-radius:20px;white-space:nowrap;border:1px solid transparent;}
+.c-cult{background:var(--warn-bg);color:var(--warn);border-color:var(--warn-bd);}
+.c-walk{background:var(--good-bg);color:var(--good);border-color:var(--good-bd);}
+.c-know{background:var(--info-bg);color:var(--info);border-color:var(--info-bd);}
+.c-fun {background:#fbe8f1;color:#a3286a;border-color:#efc9dd;}
+.c-duo {background:var(--alt-bg);color:var(--alt);border-color:var(--alt-bd);}
+.c-early{background:var(--bad-bg);color:var(--bad);border-color:var(--bad-bd);}
+.legend{font-family:var(--sans);font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px 14px;margin:6px 0 2px;}
+.dayplan{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:6px 20px 14px;margin:16px 0;}
+.dayplan h3{margin:16px 0 6px;}
+.dayplan .chip{vertical-align:middle;}
+@media(max-width:560px){.lodging{flex-direction:column;align-items:stretch;}.lodging img{width:100%;height:180px;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="title">
+    <p class="kicker">Carnet de voyage · Première fois en Écosse</p>
+    <h1>Écosse 2026</h1>
+    <p class="sub">Du vendredi 31 juillet au mardi 11 août 2026 — Shirley &amp; Sébastien, avec Yvan (21) et Sacha (17). Van + tente, 5 étapes, 12 nuits.</p>
+  </header>
+
+  <div class="map-hero">
+    <img src="medias/00-carte-itineraire.png" alt="Carte de l'itinéraire en Écosse">
+  </div>
+
+  <div class="key"><p><b>L'esprit du voyage.</b> Rythme cool — <b>2 visites/jour</b> (max 3 si c'est groupé), départ vers 11h. En août il fait jour jusqu'à <b>~21h30</b>, donc partir tard laisse une journée pleine. Un bon mélange culture, marche, savoir et fun ; et quelques visites « à deux » quand c'est trop historique pour les garçons.</p></div>
+
+  <p class="legend">
+    <span class="chip c-cult">🎭 Culture</span>
+    <span class="chip c-walk">🥾 Marche</span>
+    <span class="chip c-know">🔬 Savoir</span>
+    <span class="chip c-fun">🎢 Fun</span>
+    <span class="chip c-duo">👫 À deux</span>
+    <span class="chip c-early">⏰ Départ tôt</span>
+  </p>
+
+  <div class="callout warn">
+    <h3>⚠️ À réserver en priorité — jours, créneaux &amp; liens</h3>
+    <table style="margin:8px 0 4px;">
+      <thead><tr><th>Réservation</th><th>Jour</th><th>Créneau conseillé</th><th>Lien officiel</th></tr></thead>
+      <tbody>
+        <tr><td><b>Jacobite Steam Train</b></td><td>Mer. 5 août</td><td>Service du <b>matin</b> — départ Fort William <b>10h10</b>, retour 16h03</td><td><a href="https://westcoastrailways.co.uk/jacobite/steam-train-trip">westcoastrailways.co.uk/jacobite</a></td></tr>
+        <tr><td><b>Château d'Édimbourg</b></td><td>Sam. 1 août</td><td><b>11h00–11h30</b> (créneau de 30 min)</td><td><a href="https://www.edinburghcastle.scot/plan-your-visit/tickets/">edinburghcastle.scot › tickets</a></td></tr>
+        <tr><td><b>Royal Yacht Britannia</b></td><td>Lun. 3 août</td><td>Entrée <b>~11h00</b></td><td><a href="https://www.royalyachtbritannia.co.uk/visit/tickets-and-tours/">royalyachtbritannia.co.uk</a></td></tr>
+        <tr><td><b>Highland Wildlife Park</b></td><td>Dim. 9 août (sur la route)</td><td><b>11h00–11h30</b></td><td><a href="https://www.highlandwildlifepark.org.uk/tickets">highlandwildlifepark.org.uk/tickets</a></td></tr>
+      </tbody>
+    </table>
+    <ul style="margin:6px 0 0;">
+      <li><b>Le train d'abord, tout de suite :</b> billets 2026 déjà ouverts, il part <b>des semaines à l'avance</b> en août. Aller-retour uniquement, ~76 £/adulte (Sacha, 17 ans, = tarif adulte). Si complet : essayer GetYourGuide. Depuis Glen Nevis, gare à ~10 min → <b>quitter le camping ~9h15–9h30</b> ⏰.</li>
+      <li><b>Château :</b> les créneaux du matin partent souvent avant midi en été. ⚠️ La <i>Crown Room</i> (joyaux de la couronne) est en rénovation depuis début 2026 — vérifier la réouverture avant de réserver. Billet officiel via Historic Environment Scotland (~19,50 £/adulte).</li>
+      <li><b>Britannia :</b> ⚠️ certaines dates d'août ferment plus tôt (dernière entrée 15h00) — vérifier la date exacte.</li>
+      <li><b>Highland Wildlife Park :</b> réservation en ligne = ~10 % d'économie ; on peut arriver après le créneau et rester jusqu'à la fermeture.</li>
+      <li><b>Option (pas obligatoire) :</b> tour guidé de Skye depuis Kyle (~11h45, 5h) — seulement si vous préférez ne pas conduire le ven. 7. Sinon l'auto-conduite reste plus souple.</li>
+    </ul>
+  </div>
+
+  <h2>Les distances entre étapes</h2>
+  <table>
+    <thead><tr><th>Trajet</th><th>Durée approx.</th><th>Sur la route</th></tr></thead>
+    <tbody>
+      <tr><td>Édimbourg → Glen Nevis</td><td>~2 h 45</td><td>par la vallée de Glencoe</td></tr>
+      <tr><td>Glen Nevis → Skye (Balmacara)</td><td>~1 h 30</td><td>par Eilean Donan Castle</td></tr>
+      <tr><td>Skye → Inverness</td><td>~2 h 00</td><td>—</td></tr>
+      <tr><td>Inverness → Milngavie</td><td>~3 h 00</td><td>par les Cairngorms (A9) + Highland Wildlife Park</td></tr>
+    </tbody>
+  </table>
+
+  <!-- ÉTAPE 1 -->
+  <div class="stage-head"><span class="stage-num">1</span><h2>Édimbourg</h2><span class="stage-dates">31/07 → 04/08 · 4 nuits</span></div>
+  <div class="lodging">
+    <img src="medias/00-logement-1-ratho-edimbourg.jpg" alt="Lost Shore Surf Resort, Ratho">
+    <div class="meta"><b>Lost Shore Surf Resort — Ratho</b><br>Chalet 3 chambres. <span class="ref">Conf. Booking 5314.137.001</span><br>
+    Bonus sur place : <b>vague de surf</b> et, juste à côté, le mur d'escalade <b>EICA Ratho</b> 🎢 — parfait pour les garçons pendant une visite « à deux ».</div>
+  </div>
+  <div class="dayplan">
+    <h3>Sam. 1/08 — Vieille ville</h3>
+    <p>Château d'Édimbourg <span class="chip c-cult">🎭</span> · descente du Royal Mile <span class="chip c-walk">🥾</span><span class="chip c-cult">🎭</span> · Camera Obscura <span class="chip c-fun">🎢</span></p>
+    <h3>Dim. 2/08 — Musée + grande balade</h3>
+    <p>National Museum of Scotland (gratuit) <span class="chip c-know">🔬</span><span class="chip c-cult">🎭</span> · Arthur's Seat <span class="chip c-walk">🥾</span></p>
+    <h3>Lun. 3/08 — À la carte</h3>
+    <p>Royal Yacht Britannia <span class="chip c-fun">🎢</span> · Dynamic Earth <span class="chip c-know">🔬</span><br>
+    <b>Option 👫</b> pendant que les garçons surfent/grimpent : Palais de Holyrood, Real Mary King's Close ou la National Gallery <span class="chip c-duo">👫</span></p>
+  </div>
+  <figure class="map-hero"><img src="medias/01-carte-edimbourg.png" alt="Carte des visites à Édimbourg"><figcaption>Les visites d'Édimbourg (numéros = légende sur la carte)</figcaption></figure>
+  <div class="gallery">
+    <figure><img src="medias/edimbourg-chateau.jpg" alt="Château d'Édimbourg"><figcaption><span class="cap-name">Edinburgh Castle</span><span class="chips"><span class="chip c-cult">🎭 Culture</span></span></figcaption></figure>
+    <figure><img src="medias/edimbourg-royal-mile.jpg" alt="Royal Mile"><figcaption><span class="cap-name">Royal Mile</span><span class="chips"><span class="chip c-walk">🥾</span><span class="chip c-cult">🎭</span></span></figcaption></figure>
+    <figure><img src="medias/edimbourg-camera-obscura.jpg" alt="Camera Obscura"><figcaption><span class="cap-name">Camera Obscura</span><span class="chips"><span class="chip c-fun">🎢 Fun</span></span></figcaption></figure>
+    <figure><img src="medias/edimbourg-national-museum.jpg" alt="National Museum of Scotland"><figcaption><span class="cap-name">National Museum (gratuit)</span><span class="chips"><span class="chip c-know">🔬</span><span class="chip c-cult">🎭</span></span></figcaption></figure>
+    <figure><img src="medias/edimbourg-arthurs-seat.jpg" alt="Arthur's Seat"><figcaption><span class="cap-name">Arthur's Seat</span><span class="chips"><span class="chip c-walk">🥾 Marche</span></span></figcaption></figure>
+    <figure><img src="medias/edimbourg-royal-yacht-britannia.jpg" alt="Royal Yacht Britannia"><figcaption><span class="cap-name">Royal Yacht Britannia</span><span class="chips"><span class="chip c-fun">🎢</span><span class="chip c-know">🔬</span></span></figcaption></figure>
+    <figure><img src="medias/edimbourg-dynamic-earth.jpg" alt="Dynamic Earth"><figcaption><span class="cap-name">Dynamic Earth</span><span class="chips"><span class="chip c-know">🔬 Savoir</span></span></figcaption></figure>
+    <figure><img src="medias/edimbourg-mary-kings-close.jpg" alt="Real Mary King's Close"><figcaption><span class="cap-name">Real Mary King's Close</span><span class="chips"><span class="chip c-cult">🎭</span><span class="chip c-duo">👫</span></span></figcaption></figure>
+    <figure><img src="medias/edimbourg-holyrood-palace.jpg" alt="Palais de Holyrood"><figcaption><span class="cap-name">Palais de Holyrood</span><span class="chips"><span class="chip c-cult">🎭</span><span class="chip c-duo">👫</span></span></figcaption></figure>
+    <figure><img src="medias/edimbourg-calton-hill.jpg" alt="Calton Hill"><figcaption><span class="cap-name">Calton Hill</span><span class="chips"><span class="chip c-walk">🥾</span></span></figcaption></figure>
+    <figure><img src="medias/edimbourg-national-gallery.jpg" alt="Scottish National Gallery"><figcaption><span class="cap-name">National Gallery</span><span class="chips"><span class="chip c-cult">🎭</span><span class="chip c-duo">👫</span></span></figcaption></figure>
+    <figure><img src="medias/edimbourg-eica-ratho-escalade.jpg" alt="EICA Ratho"><figcaption><span class="cap-name">EICA Ratho (escalade)</span><span class="chips"><span class="chip c-fun">🎢 Fun</span></span></figcaption></figure>
+  </div>
+
+  <!-- ÉTAPE 2 -->
+  <div class="stage-head"><span class="stage-num">2</span><h2>Glen Nevis / Fort William</h2><span class="stage-dates">04/08 → 06/08 · 2 nuits</span></div>
+  <div class="lodging">
+    <img src="medias/00-logement-2-glen-nevis.jpg" alt="Glen Nevis Caravan and Camping Park">
+    <div class="meta"><b>Glen Nevis Caravan &amp; Camping Park</b><br>Pitch camping-car + pitch tente séparé. <span class="ref">EJ9JF913 · VJ2BYK52</span><br>Au pied du Ben Nevis, la plus haute montagne du Royaume-Uni.</div>
+  </div>
+  <div class="dayplan">
+    <h3>Mar. 4/08 — Route par Glencoe</h3>
+    <p>Arrêt aux points de vue de la vallée de Glencoe <span class="chip c-walk">🥾</span><span class="chip c-cult">🎭</span> puis arrivée au camping.</p>
+    <h3>Mer. 5/08 — Train à vapeur <span class="chip c-early">⏰ quitter le camping ~9h30</span></h3>
+    <p>Jacobite Steam Train (viaduc de Glenfinnan) <span class="chip c-fun">🎢</span><span class="chip c-walk">🥾</span> le matin · Steall Falls (gorge de la Nevis, ~2h) <span class="chip c-walk">🥾</span><br>
+    <i>Si le train est complet :</i> voir passer le train depuis le point de vue de Glenfinnan (~11h &amp; ~15h).</p>
+    <p><b>Autre option :</b> télécabine Nevis Range <span class="chip c-fun">🎢</span> (+ descentes VTT pour les garçons).</p>
+  </div>
+  <div class="gallery">
+    <figure><img src="medias/fortwilliam-glencoe.jpg" alt="Glencoe"><figcaption><span class="cap-name">Glen Coe</span><span class="chips"><span class="chip c-walk">🥾</span><span class="chip c-cult">🎭</span></span></figcaption></figure>
+    <figure><img src="medias/fortwilliam-jacobite-train.jpg" alt="Jacobite Steam Train"><figcaption><span class="cap-name">Jacobite Steam Train</span><span class="chips"><span class="chip c-fun">🎢</span><span class="chip c-early">⏰</span></span></figcaption></figure>
+    <figure><img src="medias/fortwilliam-glenfinnan-viaduc.jpg" alt="Viaduc de Glenfinnan"><figcaption><span class="cap-name">Viaduc de Glenfinnan</span><span class="chips"><span class="chip c-walk">🥾</span></span></figcaption></figure>
+    <figure><img src="medias/fortwilliam-steall-falls.jpg" alt="Steall Falls"><figcaption><span class="cap-name">Steall Falls</span><span class="chips"><span class="chip c-walk">🥾 Marche</span></span></figcaption></figure>
+    <figure><img src="medias/fortwilliam-nevis-range.jpg" alt="Nevis Range"><figcaption><span class="cap-name">Nevis Range (télécabine)</span><span class="chips"><span class="chip c-fun">🎢</span><span class="chip c-walk">🥾</span></span></figcaption></figure>
+    <figure><img src="medias/fortwilliam-ben-nevis.jpg" alt="Ben Nevis"><figcaption><span class="cap-name">Ben Nevis (pour les motivés)</span><span class="chips"><span class="chip c-walk">🥾</span></span></figcaption></figure>
+  </div>
+
+  <!-- ÉTAPE 3 -->
+  <div class="stage-head"><span class="stage-num">3</span><h2>Île de Skye</h2><span class="stage-dates">06/08 → 08/08 · 2 nuits</span></div>
+  <div class="lodging">
+    <img src="medias/00-logement-3-balmacara.jpg" alt="Reraig Caravan and Camping, Balmacara">
+    <div class="meta"><b>Reraig Caravan &amp; Camping — Balmacara</b><br>Pitch camping-car + pitch tente (résa directe). <span class="ref">SHB505ZA</span><br>Au bord du loch, porte d'entrée vers Skye. Eilean Donan à ~15 min.</div>
+  </div>
+  <div class="dayplan">
+    <h3>Jeu. 6/08 — Route + château</h3>
+    <p>Sur la route d'arrivée : Eilean Donan Castle <span class="chip c-cult">🎭</span><span class="chip c-fun">🎢</span> — le château de carte postale.</p>
+    <h3>Ven. 7/08 — Grande journée sur Skye <span class="chip c-early">⏰ départ ~9h (parkings + foule)</span></h3>
+    <p><b>Boucle nord (Trotternish) :</b> Old Man of Storr <span class="chip c-walk">🥾</span> · Kilt Rock &amp; Mealt Falls <span class="chip c-cult">🎭</span> · Quiraing <span class="chip c-walk">🥾</span> · Portree (déjeuner) <span class="chip c-fun">🎢</span> · Fairy Glen<br>
+    <b>Ou sud-ouest :</b> Fairy Pools (baignade sauvage) <span class="chip c-walk">🥾</span><span class="chip c-fun">🎢</span> + Portree.<br>
+    <b>Option 👫 sans conduire :</b> tour guidé 5h depuis Kyle (départ ~11h45).</p>
+  </div>
+  <div class="gallery">
+    <figure><img src="medias/skye-eilean-donan.jpg" alt="Eilean Donan Castle"><figcaption><span class="cap-name">Eilean Donan Castle</span><span class="chips"><span class="chip c-cult">🎭</span><span class="chip c-fun">🎢</span></span></figcaption></figure>
+    <figure><img src="medias/skye-old-man-of-storr.jpg" alt="Old Man of Storr"><figcaption><span class="cap-name">Old Man of Storr</span><span class="chips"><span class="chip c-walk">🥾</span><span class="chip c-early">⏰</span></span></figcaption></figure>
+    <figure><img src="medias/skye-quiraing.jpg" alt="Quiraing"><figcaption><span class="cap-name">Quiraing</span><span class="chips"><span class="chip c-walk">🥾 Marche</span></span></figcaption></figure>
+    <figure><img src="medias/skye-kilt-rock.jpg" alt="Kilt Rock"><figcaption><span class="cap-name">Kilt Rock &amp; Mealt Falls</span><span class="chips"><span class="chip c-cult">🎭</span></span></figcaption></figure>
+    <figure><img src="medias/skye-portree.jpg" alt="Portree"><figcaption><span class="cap-name">Portree</span><span class="chips"><span class="chip c-fun">🎢 Fun</span></span></figcaption></figure>
+    <figure><img src="medias/skye-fairy-pools.jpg" alt="Fairy Pools"><figcaption><span class="cap-name">Fairy Pools</span><span class="chips"><span class="chip c-walk">🥾</span><span class="chip c-fun">🎢</span></span></figcaption></figure>
+    <figure><img src="medias/skye-fairy-glen.jpg" alt="Fairy Glen"><figcaption><span class="cap-name">Fairy Glen (Uig)</span><span class="chips"><span class="chip c-walk">🥾</span><span class="chip c-fun">🎢</span></span></figcaption></figure>
+  </div>
+
+  <!-- ÉTAPE 4 -->
+  <div class="stage-head"><span class="stage-num">4</span><h2>Inverness</h2><span class="stage-dates">08/08 → 09/08 · 1 nuit</span></div>
+  <div class="lodging">
+    <img src="medias/00-logement-4-inverness.jpg" alt="Ardtower Caravan Park, Inverness">
+    <div class="meta"><b>Ardtower Caravan Park — Inverness</b><br>Pitch camping-car. <span class="ref">RGTCP4JN · solde £45,90 le 01/08</span><br>Capitale des Highlands, aux portes du Loch Ness.</div>
+  </div>
+  <div class="dayplan">
+    <h3>Sam. 8/08 — Arrivée + histoire (les 2 sites à 10 min l'un de l'autre)</h3>
+    <p>Culloden Battlefield (centre d'interprétation remarquable) <span class="chip c-cult">🎭</span> · Clava Cairns (4000 ans, ambiance <i>Outlander</i>) <span class="chip c-cult">🎭</span><span class="chip c-fun">🎢</span><br>
+    <b>Alternative :</b> Loch Ness + Urquhart Castle <span class="chip c-cult">🎭</span><span class="chip c-walk">🥾</span> (~30 min au SO).</p>
+  </div>
+  <div class="gallery">
+    <figure><img src="medias/inverness-culloden.jpg" alt="Culloden Battlefield"><figcaption><span class="cap-name">Culloden Battlefield</span><span class="chips"><span class="chip c-cult">🎭</span><span class="chip c-duo">👫</span></span></figcaption></figure>
+    <figure><img src="medias/inverness-clava-cairns.jpg" alt="Clava Cairns"><figcaption><span class="cap-name">Clava Cairns</span><span class="chips"><span class="chip c-cult">🎭</span><span class="chip c-fun">🎢</span></span></figcaption></figure>
+    <figure><img src="medias/inverness-urquhart-loch-ness.jpg" alt="Urquhart Castle, Loch Ness"><figcaption><span class="cap-name">Loch Ness / Urquhart Castle</span><span class="chips"><span class="chip c-cult">🎭</span><span class="chip c-walk">🥾</span></span></figcaption></figure>
+  </div>
+
+  <!-- ÉTAPE 5 -->
+  <div class="stage-head"><span class="stage-num">5</span><h2>Glasgow / Loch Lomond</h2><span class="stage-dates">09/08 → 11/08 · 2 nuits</span></div>
+  <div class="lodging">
+    <img src="medias/00-logement-5-milngavie.jpg" alt="West Highland Way Campsite, Milngavie">
+    <div class="meta"><b>West Highland Way Campsite — Milngavie</b><br>Tente cloche safari. <span class="ref">Conf. Booking 5772.768.473</span><br>Aux portes de Glasgow et du Loch Lomond, début du West Highland Way.</div>
+  </div>
+  <div class="dayplan">
+    <h3>Dim. 9/08 — Route par les Cairngorms</h3>
+    <p>Sur la route Inverness → Milngavie : Highland Wildlife Park (ours polaires, loups, tigres) <span class="chip c-know">🔬</span><span class="chip c-fun">🎢</span>.</p>
+    <h3>Lun. 10/08 — Au choix</h3>
+    <p><b>Nature — Loch Lomond :</b> Conic Hill depuis Balmaha <span class="chip c-walk">🥾</span> + village de Luss (croisière) <span class="chip c-fun">🎢</span><br>
+    <b>Ville — Glasgow :</b> Glasgow Science Centre <span class="chip c-know">🔬</span><span class="chip c-fun">🎢</span> + Kelvingrove (gratuit) <span class="chip c-cult">🎭</span><span class="chip c-fun">🎢</span><br>
+    <b>Tout près :</b> Mugdock Country Park ou The Whangie <span class="chip c-walk">🥾</span>.</p>
+    <h3>Mar. 11/08 — Départ</h3>
+    <p>Matinée libre selon l'heure (petite marche à Mugdock).</p>
+  </div>
+  <figure class="map-hero"><img src="medias/02-carte-glasgow.png" alt="Carte des visites autour de Glasgow"><figcaption>Les visites autour de Glasgow et du Loch Lomond</figcaption></figure>
+  <div class="gallery">
+    <figure><img src="medias/glasgow-highland-wildlife-park.jpg" alt="Highland Wildlife Park"><figcaption><span class="cap-name">Highland Wildlife Park</span><span class="chips"><span class="chip c-know">🔬</span><span class="chip c-fun">🎢</span></span></figcaption></figure>
+    <figure><img src="medias/glasgow-conic-hill-balmaha.jpg" alt="Conic Hill, Loch Lomond"><figcaption><span class="cap-name">Conic Hill / Balmaha</span><span class="chips"><span class="chip c-walk">🥾 Marche</span></span></figcaption></figure>
+    <figure><img src="medias/glasgow-luss.jpg" alt="Luss, Loch Lomond"><figcaption><span class="cap-name">Luss (Loch Lomond)</span><span class="chips"><span class="chip c-fun">🎢 Fun</span></span></figcaption></figure>
+    <figure><img src="medias/glasgow-science-centre.jpg" alt="Glasgow Science Centre"><figcaption><span class="cap-name">Glasgow Science Centre</span><span class="chips"><span class="chip c-know">🔬</span><span class="chip c-fun">🎢</span></span></figcaption></figure>
+    <figure><img src="medias/glasgow-kelvingrove.jpg" alt="Kelvingrove"><figcaption><span class="cap-name">Kelvingrove (gratuit)</span><span class="chips"><span class="chip c-cult">🎭</span><span class="chip c-fun">🎢</span></span></figcaption></figure>
+    <figure><img src="medias/glasgow-riverside-museum.jpg" alt="Riverside Museum"><figcaption><span class="cap-name">Riverside Museum</span><span class="chips"><span class="chip c-fun">🎢 Fun</span></span></figcaption></figure>
+    <figure><img src="medias/glasgow-mugdock-country-park.jpg" alt="Mugdock Country Park"><figcaption><span class="cap-name">Mugdock Country Park</span><span class="chips"><span class="chip c-walk">🥾</span></span></figcaption></figure>
+    <figure><img src="medias/glasgow-the-whangie.jpg" alt="The Whangie"><figcaption><span class="cap-name">The Whangie</span><span class="chips"><span class="chip c-walk">🥾</span></span></figcaption></figure>
+  </div>
+
+  <!-- INFOS PRATIQUES -->
+  <h2>Infos pratiques</h2>
+  <div class="callout info">
+    <h3>Bon à savoir</h3>
+    <ul style="margin:0;">
+      <li><b>Départs matinaux (9h) rares</b> → à garder pour le <b>mer. 5/08</b> (train) et le <b>ven. 7/08</b> (Skye). Sinon 11h suffit.</li>
+      <li><b>Midges</b> (moucherons) en soirée dans les Highlands : prévoir un anti-moustiques type <b>Smidge</b>, surtout au camping.</li>
+      <li><b>Passes</b> : un <b>Historic Scotland Explorer Pass</b> peut être rentable (château d'Édimbourg, Urquhart…). Culloden &amp; Glencoe sont gérés par le National Trust for Scotland.</li>
+      <li><b>Contact réservations</b> : Shirley — +32 475 22 48 81 — shirley.pauwels@gmail.com</li>
+    </ul>
+  </div>
+
+  <h3>À emporter</h3>
+  <p>Draps housse 180 (×2) · draps housse 90 (×2) · sacs de couchage (×4) · matelas (1–2) · essuie-vaisselle (×2) · sacs poubelle (×2) · canif · essuies (×4) · torchon · taies d'oreiller (×4) · cape de pluie.</p>
+
+  <footer>
+    Carnet établi le 15/07/2026 · itinéraire &amp; visites d'après les réservations et une recherche web. Cartes : © OpenStreetMap / CARTO. Photos : Wikimedia Commons &amp; sites des établissements (usage privé). Les horaires et tarifs sont à confirmer sur les sites officiels avant le départ.
+  </footer>
+
+</div>
+</body>
+</html>
